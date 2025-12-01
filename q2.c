@@ -16,7 +16,7 @@ product = num1 * num2;
 if (num2 != 0) {   
         quotient = num1 / num2;  
     } else {
-        printf("Division by zero is not allowed!\n");
+        printf("Division by zero is not allowed\n");
         return 1;
     }
 
