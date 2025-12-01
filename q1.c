@@ -4,12 +4,12 @@
 
 int main(){
 
-float num1, num2, sum;
+float num1, num2;
 
 printf("enter two numbers");
 scanf("%f %f", &num1, &num2);
 
-sum = num1 + num2;
+float sum = num1 + num2;
 
 printf("the sum of %f and %f is : %f\n", num1, num2, sum);
 
